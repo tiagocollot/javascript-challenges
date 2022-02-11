@@ -4,6 +4,11 @@
   --blur: 10px;
 }
 
+img {
+  padding: var(--spacing);
+  background: var(--base);
+}
+
 body {
   text-align: center;
   background: rgb(118, 118, 221);
