@@ -1,5 +1,5 @@
 :root {
-  --base: purple;
+  --base: #f2f2;
   --spacing: 10px;
   --blur: 10px;
 }
@@ -16,7 +16,7 @@ img {
 
 body {
   text-align: center;
-  background: rgb(118, 118, 221);
+  background: #f2f2;
   color: white;
   font-family: helvetica;
   font-weight: 100;
