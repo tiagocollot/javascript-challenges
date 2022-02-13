@@ -18,7 +18,7 @@ const people = ['Beck, Glen', 'Becker, Carl', 'Beckett, Samule', 'Beddoes, Mick'
 
 
 // Array.prototype.filter()
-// 1. Filter the list of inventors fot those who where born in the 1500´ st
+// 1. Filter the list of inventors for those who where born in the 1500´ st
 
 // Array.prototype.map()
 // 2. Give us an array of the inventory first and last namespace
