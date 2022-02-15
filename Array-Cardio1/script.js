@@ -1,4 +1,4 @@
-const inventors = [
+noconst inventors = [
   { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 };
 
   { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 };
@@ -31,24 +31,38 @@ const people = ['Beck, Glen', 'Becker, Carl', 'Beckett, Samule', 'Beddoes, Mick'
 
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who where born in the 1500´ st
-const fifteen =
+const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year <= 1599));
+console.table(fifteen);
 
-  // Array.prototype.map()
-  // 2. Give us an array of the inventory first and last namespace
+// Array.prototype.map()
+// 2. Give us an array of the inventory first and last namespace
+const fullNames = inventors.map(inventor => inventor.first + ' ' + inventor.last);
+// || const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
+console.log(fullNames);
 
-  // Array.prototype.sort()
-  // 3. Sort the inventors by birthdate, oldest to youngest
+// Array.prototype.sort()
+// 3. Sort the inventors by birthdate, oldest to youngest
+const birthDate = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+console.table(birthDate);
 
-  // Array.prototype.reduce()
+// const birthDate = inventors.sort(function(a, b) {
+//   if (a.year > b.year) {
+//     return 1;
+//   } else {
+//     return -1
+//   }
+// });
 
-  // 4. How many years did all the inventors live
+// Array.prototype.reduce()
 
-  // 5. Sort the inventors by years lived
+// 4. How many years did all the inventors live
 
-  // 6. Create a list of Boulevards in Paris that contain 'de' anywhere in the name
-  // https: //en.wikipedia.org/wiki/Category:Boulevards_In_Paris
+// 5. Sort the inventors by years lived
 
-  // 7. sort Exercise
-  //    Sort the people alphabetically by last name
+// 6. Create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// https: //en.wikipedia.org/wiki/Category:Boulevards_In_Paris
 
-  // 8. Reduce Exercise
+// 7. sort Exercise
+//    Sort the people alphabetically by last name
+
+// 8. Reduce Exercise
