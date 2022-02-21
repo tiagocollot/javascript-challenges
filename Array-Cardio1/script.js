@@ -60,7 +60,8 @@ const oldest = inventors.sort((a, b) => {
 console.table(oldest);
 
 // 6. Create a list of Boulevards in Paris that contain 'de' anywhere in the name
-// https: //en.wikipedia.org/wiki/Category:Boulevards_In_Paris
+// https://en.wikipedia.org/wiki/Category:Boulevards_In_Paris
+
 
 // const people = ['Beck, Glen', 'Becker, Carl', 'Beckett, Samule', 'Beddoes, Mick', 'Beecher, Henry',
 //   'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert',
@@ -77,3 +78,16 @@ console.table(oldest);
 //    Sort the people alphabetically by last name
 
 // 8. Reduce Exercise
+// Some up the instances of each of these!
+
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
+
+const transportation = data.reduce(function(obj, item) {
+  if (!obj[item]) {
+    obj[item] = 0;
+  }
+  obj[item]++;
+  return obj;
+}, {});
+
+console.log(transportation);
