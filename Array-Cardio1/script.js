@@ -1,13 +1,3 @@
-// const people = ['Beck, Glen', 'Becker, Carl', 'Beckett, Samule', 'Beddoes, Mick', 'Beecher, Henry',
-//   'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert',
-//   'Benenson, Peter', 'Ben-Gurion, David', 'Benjamim, Walter', 'Benn, Tony',
-//   'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric',
-//   'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric',
-//   'Bernhard, Sandra', ' Berra, Yogi', 'Berry, Hale', 'Berry, Wendell', 'Bethea, Erin',
-//   'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve',
-//   'Billings, Josh', 'Biondo, Frank', 'Birrel, Augustine', 'Black, Elk', 'Blair, Robert',
-//   'Blair, Tony', 'Blake, William'
-// ];
 const inventors = [
   { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
 
@@ -71,6 +61,17 @@ console.table(oldest);
 
 // 6. Create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https: //en.wikipedia.org/wiki/Category:Boulevards_In_Paris
+
+// const people = ['Beck, Glen', 'Becker, Carl', 'Beckett, Samule', 'Beddoes, Mick', 'Beecher, Henry',
+//   'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert',
+//   'Benenson, Peter', 'Ben-Gurion, David', 'Benjamim, Walter', 'Benn, Tony',
+//   'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric',
+//   'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric',
+//   'Bernhard, Sandra', ' Berra, Yogi', 'Berry, Hale', 'Berry, Wendell', 'Bethea, Erin',
+//   'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve',
+//   'Billings, Josh', 'Biondo, Frank', 'Birrel, Augustine', 'Black, Elk', 'Blair, Robert',
+//   'Blair, Tony', 'Blake, William'
+// ];
 
 // 7. sort Exercise
 //    Sort the people alphabetically by last name
