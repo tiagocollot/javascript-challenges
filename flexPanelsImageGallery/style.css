@@ -10,6 +10,12 @@ body {
   margin: 0;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .panels {
   min-height: 100vh;
   display: flex;
@@ -90,4 +96,18 @@ body {
   font-family: 'Amatic SC', cursive;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+  font-size: 4em;
+}
+
+.panel.open {
+  flex: 5;
+  font-size: 40px;
+}
+
+.cta {
+  color: white;
+  text-decoration: none;
 }
