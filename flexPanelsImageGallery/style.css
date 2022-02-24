@@ -68,7 +68,7 @@ body {
   margin: 0;
   width: 100%;
   transition: transform 0.5s;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
@@ -84,7 +84,7 @@ body {
 }
 
 .panel>*:last-child {
-  transform: translateY(-100%);
+  transform: translateY(100%);
 }
 
 .panel.open-active>*:last-child {
@@ -99,7 +99,7 @@ body {
 }
 
 .panel p:nth-child(2) {
-  font-size: 4em;
+  font-size: 2em;
 }
 
 .panel.open {
