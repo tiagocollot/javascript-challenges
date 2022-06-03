@@ -6,7 +6,7 @@ const teams = {
     { firstName: "Katrina",
      lastName: "ler",
      age: 54 },
-    { firstName: Te",
+    { firstName: "Te",
      lastName: "Whee",
      age: 54 },
   _games: [],
