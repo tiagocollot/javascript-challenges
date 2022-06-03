@@ -2,16 +2,22 @@
 
 const menu = {
  _meal: '',
- _price: 0
+ _price: 0,
 
   set meal(mealToCheck){
    if(typeof mealToCheck === 'string') {
-    return this.meal = mealToCheck;
+    return this._meal = mealToCheck;
    }
+  },
 
- }
+  set price(priceToCheck){
+   if(typeof priceToCheck === 'number') {
+    return this._price = priceToCheck;
+  }
+ },
+
 };
 
-menu._meal = 8;
-menu._price = "Pasta";
-console.log(menu);
+menu.meal = 'pasta';
+menu.price = 10;
+console.log(menu)
