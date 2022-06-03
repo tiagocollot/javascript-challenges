@@ -16,8 +16,16 @@ const menu = {
   }
  },
 
+  get todaysSpecial(){
+    if(this._meal && this._price) {
+      return `Today’s Special is ${this._meal}  for $${this._price}!`
+    } else {
+      return 'Meal or price was not set correctly!';
+    }
+  }
+
 };
 
-menu.meal = 'pasta';
+menu.meal = 'Pizza';
 menu.price = 10;
-console.log(menu)
+console.log(menu.todaysSpecial);
