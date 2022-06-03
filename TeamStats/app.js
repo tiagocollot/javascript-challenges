@@ -1,5 +1,6 @@
 
 'use strict';
+
 const teams = {
   _players: [
     { firstName: "Pete", lastName: "Wheeler", age: 4 },
@@ -42,8 +43,7 @@ const teams = {
 
 
   teams.addPlayer('Bugs', "Bunny", 76);
-
   console.log(teams.players);
 
-  team addGame('Titans, 100, 98');
-  console.log(team.games);
+  teams.addGame('Titans', 100, 98);
+  console.log(teams.games);
