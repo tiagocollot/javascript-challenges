@@ -1,3 +1,5 @@
+
+'use strict';
 const teams = {
   _players: [
     { firstName: "Pete", lastName: "Wheeler", age: 4 },
@@ -19,12 +21,29 @@ const teams = {
     return this._games;
   },
 
-  addplayer(newFirstName, newLastName, newAge) {
+  addPlayer (newFirstName, newLastName, newAge) {
     let player = {
       firstName: newFirstName,
       lastName: newLastName,
       age: newAge
     };
     this.players.push(player);
+  },
+
+   addGame (newOpponent, newTeamPoints, newOpponentPoints) {
+    let game = {
+      opponent: newOpponent,
+      teamPoints: newTeamPoints,
+      opponentPoints: newOpponentPoints
+    }
+    this.games.push(game);
   }
 };
+
+
+  teams.addPlayer('Bugs', "Bunny", 76);
+
+  console.log(teams.players);
+
+  team addGame('Titans, 100, 98');
+  console.log(team.games);
