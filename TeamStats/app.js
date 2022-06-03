@@ -2,10 +2,10 @@ const teams = {
   _players: [
     { firstName: "Pete",
      lastName: "Wheeler",
-     age: 54 },
+     age: 4 },
     { firstName: "Katrina",
      lastName: "ler",
-     age: 54 },
+     age: 5 },
     { firstName: "Te",
      lastName: "Whee",
      age: 54 },
