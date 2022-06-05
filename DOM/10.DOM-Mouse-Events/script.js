@@ -21,3 +21,8 @@ resetButton.onclick = reset;
     itemOne.style.width = '401px';
   }
   itemOne.addEventListener('mouseover', increaseWidth);
+
+  let changeBackground = function() {
+    itemTwo.style.backgroundColor = 'purple';
+  }
+  itemTwo.addEventListener('mouseup', changeBackground)
