@@ -17,24 +17,24 @@ resetButton.onclick = reset;
 
 // My code here
 
-  let increaseWidth = function() {
-    itemOne.style.width = '1000px';
-  }
-  itemOne.addEventListener('mouseover', increaseWidth);
+let increaseWidth = function() {
+  itemOne.style.width = '600px';
+}
+itemOne.addEventListener('mouseover', increaseWidth);
 
-  let changeBackground = function() {
-    itemTwo.style.backgroundColor = 'purple';
-  }
-  itemTwo.addEventListener('mouseup', changeBackground)
+let changeBackground = function() {
+  itemTwo.style.backgroundColor = 'purple';
+}
+itemTwo.addEventListener('mouseup', changeBackground)
 
-  let changeText = function() {
-    itemThree.innerHTML = "The mouse has left the element";
-  }
+let changeText = function() {
+  itemThree.innerHTML = "The mouse has left the element";
+}
 
-  itemThree.addEventListener('mouseout', changeText);
+itemThree.addEventListener('mouseout', changeText);
 
-  let showItem = function() {
-    itemFive.style.display = 'block';
-  }
+let showItem = function() {
+  itemFive.style.display = 'block';
+}
 
-  itemFour.addEventListener('mousedown', showItem)
+itemFour.addEventListener('mousedown', showItem)

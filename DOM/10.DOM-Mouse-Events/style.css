@@ -32,7 +32,7 @@ li,
   color: #efd9ca;
   font-weight: bold;
   cursor: pointer;
-  font-family: 'Nunito';
+  font-family: 'monospace';
 }
 
 #list-item-five {
