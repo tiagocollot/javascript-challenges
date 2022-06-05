@@ -16,3 +16,6 @@ view.addEventListener('click', open);
 close.addEventListener('click', hide);
 
 // Write your code here
+function textChanged() {
+  view.innerHTML = "Hello world!.";
+}
