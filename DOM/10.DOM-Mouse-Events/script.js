@@ -18,7 +18,7 @@ resetButton.onclick = reset;
 // My code here
 
   let increaseWidth = function() {
-    itemOne.style.width = '401px';
+    itemOne.style.width = '1000px';
   }
   itemOne.addEventListener('mouseover', increaseWidth);
 
