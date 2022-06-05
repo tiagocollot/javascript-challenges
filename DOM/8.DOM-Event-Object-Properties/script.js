@@ -6,6 +6,6 @@ let text = document.getElementById('text');
 let sharePhoto = function(event) {
 
   event.target.style.display = "none";
-  text.innerHTML + event.timeStamp
+  text.innerHTML = "You shared the puppy photo in " + event.timeStamp + " ms.";
 }
 share.addEventListener('click', sharePhoto);
