@@ -26,3 +26,15 @@ resetButton.onclick = reset;
     itemTwo.style.backgroundColor = 'purple';
   }
   itemTwo.addEventListener('mouseup', changeBackground)
+
+  let changeText = function() {
+    itemThree.innerHTML = "The mouse has left the element";
+  }
+
+  itemThree.addEventListener('mouseout', changeText);
+
+  let showItem = function() {
+    itemFive.style.display = 'block';
+  }
+
+  itemFour.addEventListener('mousedown', showItem)
