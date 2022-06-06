@@ -30,7 +30,7 @@ body{
     position: relative; /* Makes elements display above overlay. */
 }
 h1{
-    color: black;
+    color: white;
     font-family: 'Lobster', sans-serif;
     font-size: 80px;
     margin: 0px;
@@ -100,7 +100,7 @@ ul{
 li{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 20px;
 }
 .info{
     display: flex;
@@ -120,7 +120,7 @@ li{
     margin-top: 27px;
 }
 .ingredients{
-    background-color: orange;
+    background-color: midnightblue;
     padding: 30px;
     width: 50%;
 }
@@ -128,6 +128,7 @@ li{
     color: #011C27;
     font-size: 18px !important;
     margin-top: 20px;
+    list-style-type: circle !important;
 }
 .ingredients li{
     color: #ffffff;
@@ -136,7 +137,7 @@ li{
     text-align: left;
 }
 .nutrition{
-    background-color: cyan;
+    background-color: lightgray;
     padding: 30px;
     width: 50%;
 }
