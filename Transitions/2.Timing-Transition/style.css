@@ -35,6 +35,7 @@ h1 {
   max-height: 50px;
   transition-property: max-height;
   transition-duration: 750ms;
+  transition-timing-function: linear;
 }
 
 .game .gazelle:hover {
