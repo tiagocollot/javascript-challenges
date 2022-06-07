@@ -73,9 +73,10 @@ body {
 .button div,
 .button i {
   /* ! Refactored */
-  transition: width 750ms ease-in 200ms,
+  transition: all 1.2s ease-out 0.2s;
+  /* transition: width 750ms ease-in 200ms,
               left 500ms ease-out 450ms,
-              font-size 950ms linear;
+              font-size 950ms linear; */
   /* transition-property: width;
   transition-duration: 750ms;
   transition-timing-function: ease-in;
